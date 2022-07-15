@@ -3,14 +3,9 @@
 ## Project Description
 This application is to be able to generate a weekday meal plan for the user to reference. It should create healthy meals while keeping track of nutrional values.
 ## Wire Frames
-
-![Untitled presentation (1)](https://user-images.githubusercontent.com/18333562/179317403-ef084c71-6ed1-49d2-9ced-d89a1cadece6.png)
 ![Untitled presentation](https://user-images.githubusercontent.com/18333562/179317404-36cd4609-cf3f-44e0-a62a-9069b2d38dbc.png)
+![Untitled presentation (1)](https://user-images.githubusercontent.com/18333562/179317403-ef084c71-6ed1-49d2-9ced-d89a1cadece6.png)
 ![Untitled presentation (4)](https://user-images.githubusercontent.com/18333562/179317405-9e557fad-c9fe-4c69-a447-4b5f5429d641.png)
-![Untitled presentation (3)](https://user-images.githubusercontent.com/18333562/179317406-9344b367-0031-44c8-8473-eaf8d2b2d61d.png)
-![Untitled presentation (2)](https://user-images.githubusercontent.com/18333562/179317408-429c9551-c646-47b8-9819-8eb7a77f8c88.png)
-
-
 
 ## MVP Goals
 Use react for DOM manipulation
@@ -39,7 +34,7 @@ Example data response planned on being used:
         },
 
 ## Component hierarchy
-
+![Untitled presentation (3)](https://user-images.githubusercontent.com/18333562/179317406-9344b367-0031-44c8-8473-eaf8d2b2d61d.png)
 
 ## User Stories
 As a user, I want to see the website portray clean, organized, and easily accessible information to be able to view the recipes for the meal I am to cook.
