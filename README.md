@@ -1,48 +1,70 @@
-# React-Project-1
+# Getting Started with Create React App
 
-## Project Description
-This application is to be able to generate a weekday meal plan for the user to reference. It should create healthy meals while keeping track of nutrional values.
-## Wire Frames
-![Untitled presentation](https://user-images.githubusercontent.com/18333562/179317404-36cd4609-cf3f-44e0-a62a-9069b2d38dbc.png)
-![Untitled presentation (1)](https://user-images.githubusercontent.com/18333562/179317403-ef084c71-6ed1-49d2-9ced-d89a1cadece6.png)
-![Untitled presentation (4)](https://user-images.githubusercontent.com/18333562/179317405-9e557fad-c9fe-4c69-a447-4b5f5429d641.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## MVP Goals
-Use react for DOM manipulation\
-Include interactive features\
-Include atleast one request to an API and use information in application\
-Use four separate components\
-Deploy application to web\
-Use Flexbox or CSS Grid for layouts\
-Must be adequately documented on Github\
-Commit daily for git version control\
-Use React Router for navigation\
-Must be responsive accross mobile, tablet, and desktop screens
+## Available Scripts
 
-## API 
-API to be used: https://spoonacular.com/food-api/docs#Generate-Meal-Plan \
-Example data response planned on being used:
+In the project directory, you can run:
 
-"meals": [ \
-        {
-            "id": 655219,\
-            "title": "Peanut Butter And Chocolate Oatmeal",\
-            "imageType": "jpg",\
-            "readyInMinutes": 45,\
-            "servings": 1,\
-            "sourceUrl": "https://spoonacular.com/recipes/peanut-butter-and-chocolate-oatmeal-655219"\
-        },
+### `npm start`
 
-## Component hierarchy
-![Untitled presentation (3)](https://user-images.githubusercontent.com/18333562/179317406-9344b367-0031-44c8-8473-eaf8d2b2d61d.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## User Stories
-As a user, I want to see the website portray clean, organized, and easily accessible information to be able to view the recipes for the meal I am to cook.\
-As a user I want to see the images of the recipes I am to cook. \
-As a user I want to see the ingredients of the recipes I am to cook.\
-As a user I want to see the nutritional value of the recipes I am to cook.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Stretch Goals
-Make the application look sleek.\
-Add a protein tracker to make sure I am meeting my daily goals for muscle growth.\
-Another possibility is to add a calorie tracker if trying to lose weight.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
