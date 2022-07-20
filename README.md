@@ -1,4 +1,4 @@
-# React-Project-1
+# Weekly Recipes
 
 ## Project Description
 This application is to be able to generate a weekday meal plan for the user to reference. It should create healthy meals while keeping track of nutrional values.
