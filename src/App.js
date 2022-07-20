@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {useState} from "react";
 import MealList from "./MealList";
@@ -6,7 +5,7 @@ import MealList from "./MealList";
 function App() {
 
   const [mealData, setMealData] = useState(null);
-  const [calories, setCalories] = useState(2000)
+  const [calories, setCalories] = useState(2500)
 
   function handleChange(e){
     setCalories(e.target.value);
@@ -31,7 +30,7 @@ function App() {
       <section className="controls">
       <input
       type="number"
-      placeholder="Calories (e.g. 2000)"
+      placeholder="Calories (e.g. 2500)"
       onChange={handleChange}/>
       <button onClick={getMealData}> Get Daily Meal Plan </button>
       {mealData && <MealList mealData={mealData}/>}
