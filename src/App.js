@@ -1,6 +1,6 @@
 import './App.css';
 import {useState} from "react";
-import MealList from "./MealList";
+import MealList from "./components/MealList";
 
 function App() {
 

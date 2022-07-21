@@ -1,4 +1,3 @@
-import React from "react";
 import Meal from "./Meal"
 
 export default function MealList({mealData}){
@@ -8,12 +7,12 @@ export default function MealList({mealData}){
         <main>
             <section className ="nutrients">
                 <h1>Total Macros</h1>
-                <ul>
-                    <li>Calories: {nutrients.calories.toFixed(0)}</li>
-                    <li>Carbohydrates: {nutrients.carbohydrates.toFixed(0)}</li>
-                    <li>Fat: {nutrients.fat.toFixed(0)}</li>
-                    <li>Protein: {nutrients.protein.toFixed(0)}</li>
-                </ul>   
+                    <ul>
+                        <li>Calories: {nutrients.calories.toFixed(0)}</li>
+                        <li>Carbohydrates: {nutrients.carbohydrates.toFixed(0)}</li>
+                        <li>Fat: {nutrients.fat.toFixed(0)}</li>
+                        <li>Protein: {nutrients.protein.toFixed(0)}</li>
+                    </ul>   
             </section>
             <section className="meals">
                 {mealData.meals.map((meal)=> {
