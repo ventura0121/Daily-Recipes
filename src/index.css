@@ -65,6 +65,10 @@ ul {
   list-style: none;
 }
 
+li {
+  
+}
+
 .meals {
   display: flex;
 }

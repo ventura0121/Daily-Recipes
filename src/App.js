@@ -5,17 +5,17 @@ import MealList from "./components/MealList";
 function App() {
 
   const [mealData, setMealData] = useState(null);
-  const [calories, setCalories] = useState(2500)
+  const [calories, setCalories] = useState(2000)
 
   function handleChange(e){
     setCalories(e.target.value);
   }
 
   function getMealData(){
-    fetch(
-      'https://api.spoonacular.com/mealplanner/generate?apiKey=eadff80810d34b1c92ba9a92b18cb9a3&timeFrame=day&rargetCalories=${calories}'
-    )
-    .then((response)=> response.json())
+    const key = process.env.REACT_APP_MEAL_KEY
+    const url = `https://api.spoonacular.com/mealplanner/generate?apiKey=${key}&timeFrame=day&targetCalories=${calories}`
+    fetch(url)
+    .then(res => res.json())
     .then((data)=>{
       setMealData(data);
       console.log(data);
@@ -30,11 +30,11 @@ function App() {
       <section className="controls">
       <input
       type="number"
-      placeholder="Calories (e.g. 2500)"
+      placeholder="Calories (e.g. 2000)"
       onChange={handleChange}/>
       <button onClick={getMealData}> Get Daily Meal Plan </button>
-      {mealData && <MealList mealData={mealData}/>}
       </section>
+      {mealData && <MealList mealData={mealData}/>}
     </div>
     
       )
