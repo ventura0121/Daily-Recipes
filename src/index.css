@@ -32,7 +32,7 @@ input {
 
 button{
   padding: 0.5rem 1rem;
-  background-color: #7f21eb;
+  background-color: #ff3333;
   color: #f3f3f3;
   border: none;
   font-family: "Roboto", sans-serif;
@@ -41,7 +41,7 @@ button{
 
 button:hover {
   curson: pointer;
-  background-color: #6a0fd3;
+  background-color: #ff3333;
 }
 
 main { 
@@ -90,7 +90,7 @@ article{
 
 a {
   text-decoration: none;
-  background-color: #7f21eb;
+  background-color: #ff3333;
   color: #f3f3f3;
   width: fit-content;
   padding: 0.5rem 1rem;
@@ -98,7 +98,7 @@ a {
 
 a:hover { 
   cursor: pointer;
-  background-color: #6a0fd3;
+  background-color: #ff3333;
 }
 
 @media only screen and (max-width: 550px) {
