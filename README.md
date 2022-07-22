@@ -2,13 +2,15 @@
 
 ## Project Description
 This application is to be able to generate a daily meal plan for the user to reference. It should create a menu of meals while keeping track of nutritional their values. You input your targeted calories and using an API it should generate 3 meals. 
-
-
+![Screen Shot 2022-07-22 at 7 21 54 AM](https://user-images.githubusercontent.com/18333562/180429711-21c4c01c-5d1c-4e81-92a2-f3f7e2af24ac.png)
 
 ## Wire Frames
-![Untitled presentation](https://user-images.githubusercontent.com/18333562/179317404-36cd4609-cf3f-44e0-a62a-9069b2d38dbc.png)
-![Untitled presentation (1)](https://user-images.githubusercontent.com/18333562/179317403-ef084c71-6ed1-49d2-9ced-d89a1cadece6.png)
-![Untitled presentation (4)](https://user-images.githubusercontent.com/18333562/179317405-9e557fad-c9fe-4c69-a447-4b5f5429d641.png)
+![Desktop](https://user-images.gi![Mobile](https://user-images.githubusercontent.com/18333562/180431377-4fb80210-1eff-4c24-9b2a-c47427a6d859.png)/
+
+thubusercontent.com/18333562/180431370-e7cb374a-a282-4263-b155-f9bf42c05b36.png)
+
+![Components](https://user-images.githubusercontent.com/18333562/180431388-17656070-4e1f-4d49-b9ef-c4fd39540869.png)
+
 
 ## MVP Goals
 Use react for DOM manipulation\
