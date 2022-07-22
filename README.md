@@ -5,9 +5,10 @@ This application is to be able to generate a daily meal plan for the user to ref
 ![Screen Shot 2022-07-22 at 7 21 54 AM](https://user-images.githubusercontent.com/18333562/180429711-21c4c01c-5d1c-4e81-92a2-f3f7e2af24ac.png)
 
 ## Wire Frames
-![Desktop](https://user-images.gi![Mobile](https://user-images.githubusercontent.com/18333562/180431377-4fb80210-1eff-4c24-9b2a-c47427a6d859.png)/
 
-thubusercontent.com/18333562/180431370-e7cb374a-a282-4263-b155-f9bf42c05b36.png)
+![Desktop](https://user-images.githubusercontent.com/18333562/180431760-ee49cc86-8767-482c-8717-35067773e07b.png)
+
+![Mobile](https://user-images.githubusercontent.com/18333562/180431783-d04de9d3-ba63-4d01-a195-904f326b4bf5.png)
 
 ![Components](https://user-images.githubusercontent.com/18333562/180431388-17656070-4e1f-4d49-b9ef-c4fd39540869.png)
 
@@ -25,7 +26,7 @@ Use React Router for navigation\
 Must be responsive accross mobile, tablet, and desktop screens
 
 ## API 
-API to be used: https://spoonacular.com/food-api/docs#Generate-Meal-Plan \
+API to be used: https://spoonacular.com/food-api/docs
 Example data response planned on being used:
 
 "meals": [ \
@@ -38,16 +39,25 @@ Example data response planned on being used:
             "sourceUrl": "https://spoonacular.com/recipes/peanut-butter-and-chocolate-oatmeal-655219"\
         },
 
-## Component hierarchy
-![Untitled presentation (3)](https://user-images.githubusercontent.com/18333562/179317406-9344b367-0031-44c8-8473-eaf8d2b2d61d.png)
-
 ## User Stories
 As a user, I want to see the website portray clean, organized, and easily accessible information to be able to view the recipes for the meal I am to cook.\
 As a user I want to see the images of the recipes I am to cook. \
-As a user I want to see the ingredients of the recipes I am to cook.\
+As a user I want to see the ingredients and instructions of the recipes I am to cook.\
 As a user I want to see the nutritional value of the recipes I am to cook.
 
 ## Stretch Goals
 Make the application look sleek.\
 Add a protein tracker to make sure I am meeting my daily goals for muscle growth.\
 Another possibility is to add a calorie tracker if trying to lose weight.
+
+## Technologies Used
+Git and Netlify was used to commit and host the website
+JavaScript and CSS was used to build the website by connecting to an API. 
+React was used as a JavaScript library to help build the websites by using components. 
+
+## Getting Started/Installation Instructions
+First you would fork and clone the repository in your preferred directory. You would then open it on your code editor. In your terminal you would then run your server using the command 'npm start'.
+
+## Contribution Guidelines
+Users can identify weaknesses in the FoodJokes component. There can be a better way of styling it or making it user friendly. 
+
