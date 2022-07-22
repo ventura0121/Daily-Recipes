@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
+import MealList from "./components/MealList";
 
 function App() {
+
+  const [mealData, setMealData] = useState(null);
+  const [calories, setCalories] = useState(2000)
+
+  function handleChange(e){
+    setCalories(e.target.value);
+  }
+
+  function getMealData(){
+    const key = process.env.REACT_APP_MEAL_KEY
+    const url = `https://api.spoonacular.com/mealplanner/generate?apiKey=${key}&timeFrame=day&targetCalories=${calories}`
+    fetch(url)
+    .then(res => res.json())
+    .then((data)=>{
+      setMealData(data);
+      console.log(data);
+    })
+    .catch(()=>{
+      console.log("error");
+    })
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="controls">
+      <input
+      type="number"
+      placeholder="Calories (e.g. 2000)"
+      onChange={handleChange}/>
+      <button onClick={getMealData}> Get Daily Meal Plan </button>
+      </section>
+      {mealData && <MealList mealData={mealData}/>}
     </div>
-  );
+    
+      )
 }
 
 export default App;
