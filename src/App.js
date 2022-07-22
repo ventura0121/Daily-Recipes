@@ -1,6 +1,8 @@
 import './App.css';
 import {useState} from "react";
 import MealList from "./components/MealList";
+import Header from './components/Header';
+//import FoodJoke from "./components/FoodJoke";
 
 function App() {
 
@@ -29,18 +31,22 @@ function App() {
   }
 
   return (
+
     <div className="App">
-      <section className="controls">
+      <Header />
+      
+      <section className="input">
       {/* Forces user input to be a number. Placeholder of 2000 calories used */}
       <input
+      placeholder="Insert targeted calories"
       type="number"
-      placeholder="Insert daily calories"
       onChange={handleCalories}/>
       {/* event handler using button */}
       <button onClick={getMealInfo}> Get Daily Meal Plan </button>
       </section>
       {/* passing over meal info to meal list component */}
       {mealInfo && <MealList mealInfo={mealInfo}/>}
+
     </div>
     
       )

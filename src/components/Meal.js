@@ -6,6 +6,7 @@ export default function Meal({meal}){
     useEffect(()=>{
         const key = process.env.REACT_APP_MEAL_KEY
         const url = `https://api.spoonacular.com/recipes/${meal.id}/information?apiKey=${key}&includeNutrition=false`
+        
         fetch (url)
         .then(res=> res.json())
         .then((data)=>{
@@ -16,7 +17,7 @@ export default function Meal({meal}){
         })
         //tells useEffect to trigger the function only when the meal.id changes
     }, [meal.id])
-    
+
     return (
     <article>
         {/* display meal title */}
@@ -26,9 +27,9 @@ export default function Meal({meal}){
         <ul className="instructions">
             <li>Number of servings: {meal.servings}</li>
             <li>Preparation time: {meal.readyInMinutes} minutes</li>
-            <li>Vegan Status: {meal.vegan} </li>
         </ul>
         <a href={meal.sourceUrl}>Go to Recipe</a>
+
     </article>
     )
 }

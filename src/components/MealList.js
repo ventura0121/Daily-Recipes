@@ -9,10 +9,10 @@ export default function MealList({mealInfo}){
                 {/* obtains nutritional breakdown to whole number */}
                 <h1>Total Daily Macros</h1>
                     <ul>
+                        <li>Calories: {nutrients.calories.toFixed(0)}</li>
                         <li>Protein: {nutrients.protein.toFixed(0)}</li>
                         <li>Fat: {nutrients.fat.toFixed(0)}</li>
                         <li>Carbohydrates: {nutrients.carbohydrates.toFixed(0)}</li>
-                        <li>Calories: {nutrients.calories.toFixed(0)}</li>
                     </ul>   
             </section>
             <section className="meals">
