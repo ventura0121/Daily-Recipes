@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from "react";
 import MealList from "./components/MealList";
 import Header from './components/Header';
-//import FoodJoke from "./components/FoodJoke";
+import FoodJoke from './components/FoodJoke';
 
 function App() {
 
@@ -46,7 +46,8 @@ function App() {
       </section>
       {/* passing over meal info to meal list component */}
       {mealInfo && <MealList mealInfo={mealInfo}/>}
-
+      
+      <FoodJoke /> 
     </div>
     
       )

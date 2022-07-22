@@ -107,6 +107,9 @@ article{
   font-size: 1.3rem;
   margin-bottom: 1 rem; 
 }
+footer{
+  margin: bottom;
+}
 
 a {
   text-decoration: none;
