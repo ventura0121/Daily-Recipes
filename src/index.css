@@ -24,6 +24,14 @@ padding-top: 2rem;
 margin-bottom: 0%;
 }
 
+.paragraph{
+margin-left: 35px;
+margin-right: 35px;
+font-size: 20px;
+text-align: left;
+padding-top: 1rem;
+}
+
 .input {
   display: flex;
   align-items: center;
