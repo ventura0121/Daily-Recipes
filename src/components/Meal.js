@@ -4,7 +4,7 @@ export default function Meal({meal}){
     const [imageUrl, setImageUrl] = useState("");
     useEffect(()=>{
         const key = process.env.REACT_APP_MEAL_KEY
-        const url = `https://api.spoonacular.com/recipes/${meal.id}/information?apiKey=${key}`
+        const url = `https://api.spoonacular.com/recipes/${meal.id}/information?apiKey=${key}&includeNutrition=false`
         fetch (url)
         .then(res=> res.json())
         .then((data)=>{
