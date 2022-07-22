@@ -2,7 +2,8 @@
 
 ## Project Description
 This application is to be able to generate a daily meal plan for the user to reference. It should create a menu of meals while keeping track of nutritional their values. You input your targeted calories and using an API it should generate 3 meals. 
-![Screen Shot 2022-07-22 at 7 21 54 AM](https://user-images.githubusercontent.com/18333562/180429711-21c4c01c-5d1c-4e81-92a2-f3f7e2af24ac.png)
+
+![Screen Shot 2022-07-22 at 8 12 50 AM](https://user-images.githubusercontent.com/18333562/180436818-04dbec9e-a182-4335-bbe9-6a15ef96dbf9.png)
 
 ## Wire Frames
 
