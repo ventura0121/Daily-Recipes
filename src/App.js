@@ -46,8 +46,9 @@ function App() {
       </section>
       {/* passing over meal info to meal list component */}
       {mealInfo && <MealList mealInfo={mealInfo}/>}
+    
+      <FoodJoke />
       
-      <FoodJoke /> 
     </div>
     
       )
